@@ -1,0 +1,42 @@
+{
+  "name": "@chubbyjs/psr-http-factory",
+  "version": "1.0.0",
+  "description": "Common Http-message factory Interface (PHP FIG PSR-17).",
+  "keywords": [
+    "psr",
+    "psr-17",
+    "http-factory-interface"
+  ],
+  "author": "Dominik Zogg",
+  "license": "MIT",
+  "repository": "chubbyjs/psr-http-factory",
+  "scripts": {
+    "cs-fix": "prettier --write src",
+    "cs": "prettier --check src",
+    "build": "tsc",
+    "prepare": "rm -Rf dist && npm run build && npm run cs"
+  },
+  "prettier": {
+    "printWidth": 120,
+    "tabWidth": 4,
+    "singleQuote": true,
+    "trailingComma": "all"
+  },
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=12"
+  },
+  "dependencies": {
+    "@chubbyjs/psr-http-message": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "12",
+    "prettier": "2.1.2",
+    "typescript": "^4.0.5"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
