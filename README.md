@@ -14,7 +14,7 @@ Common Http-message factory Interface ([PHP FIG][2] [PSR-17][3]).
 Through [NPM](https://www.npmjs.com) as [@chubbyjs/psr-http-factory][1].
 
 ```sh
-npm i @chubbyjs/psr-http-factory@1.0.0
+npm i @chubbyjs/psr-http-factory@1.0.1
 ```
 
 ## Copyright
