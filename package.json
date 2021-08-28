@@ -1,6 +1,6 @@
 {
   "name": "@chubbyjs/psr-http-factory",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Common Http-message factory Interface (PHP FIG PSR-17).",
   "keywords": [
     "psr",
