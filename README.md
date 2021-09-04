@@ -7,14 +7,14 @@ Common Http-message factory Interface ([PHP FIG][2] [PSR-17][3]).
 ## Requirements
 
  * node: 12
- * [@chubbyjs/psr-http-message][4]: ^1.0.0
+ * [@chubbyjs/psr-http-message][4]: ^1.2.0
 
 ## Installation
 
 Through [NPM](https://www.npmjs.com) as [@chubbyjs/psr-http-factory][1].
 
 ```sh
-npm i @chubbyjs/psr-http-factory@1.0.2
+npm i @chubbyjs/psr-http-factory@1.1.0
 ```
 
 ## Copyright

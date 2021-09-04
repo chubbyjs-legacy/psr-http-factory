@@ -1,6 +1,6 @@
 {
   "name": "@chubbyjs/psr-http-factory",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Common Http-message factory Interface (PHP FIG PSR-17).",
   "keywords": [
     "psr",
@@ -29,7 +29,8 @@
     "node": ">=12"
   },
   "dependencies": {
-    "@chubbyjs/psr-http-message": "^1.0.0"
+    "@chubbyjs/psr-http-message": "^1.2.0",
+    "@types/node": "^12"
   },
   "devDependencies": {
     "prettier": "2.3.2",
